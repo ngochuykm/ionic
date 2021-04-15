@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'myroboto';
+    src: url('/assets/fonts/roboto-regular.ttf'); /* IE9 Compat Modes */
+    
+  }
+.control-card img{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.control-col{
+    width: 20%;
+    flex: 1;
+}
+.control-card{
+    width: 100%;
+}
+ion-title{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    text-decoration: underline;
+    color: #0866b9;
+}
+ion-card{
+    margin: 0;
+    box-shadow: 5px 5px #b0bbbb99;
+}
+.ion-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.checkin-col .checkin h4{
+    background-color: rgb(9, 33, 48);
+    color: #14ec89;
+}
+.checkin-col .checkout h4{
+    background-color: rgb(175, 67, 40);
+    color: white;
+}
+.checkin-col h4{
+    height: 35px;
+    border-radius: 6px;
+    padding: 0px 10px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .7px;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.infomation-card{
+    padding: 0px 10px;
+}
+.infomation-card-item{
+    box-shadow: 8px 8px #b0bbb9a8;
+    border: 1px solid #c7b9b994;
+    padding-top: 10px;
+}
+.infomation-card-item ion-title{
+    text-decoration: none;
+    color: rgb(31, 28, 28);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+.infomation-card img{
+    margin: 0 auto;
+    width: 60%;
+}
+.job-card .job-title{
+    color: #a21d1d;
+    font-weight: bold;
+}
+.header{
+    height: 70px;
+}
+.header ion-toolbar{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.text-title,.text-title a,.text-title h4{
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.text-title span{
+    padding-left: 10px;
+    font-family: "myroboto";
+    font-weight: 400;
+}
+.text-note h4{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: monospace;
+    letter-spacing: 0.2;
+}
+.header-ion-title{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+.header ion-icon{
+    font-size: 40px;
+    padding-left: 5px;
+} 
+.header-ion-title{
+    text-decoration: none;
+}
+.header-ion-title .top h4{
+    color: black;
+    font-weight: bold;
+    padding-right: 5px;
+    margin: 0px;
+    margin-bottom: 4px;
+    text-decoration: none;
+}
+.header-ion-title .top{
+    margin-bottom: 4px;
+}
+.header-ion-title .top a{
+    font-weight: bold;
+    padding-right: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.header-ion-title .bottom span{
+    font-size: 12px;
+    font-weight: bold;
+}
+.header-ion-title .bottom span:nth-child(1){
+    text-decoration: none;
+    padding-right: 15px;
+}
+.header-ion-title .bottom span:nth-child(2){
+    text-decoration: none;
+    color: #2bbd07;
+}
+.comment-text-title{
+    font-family: 'myroboto';
+}
